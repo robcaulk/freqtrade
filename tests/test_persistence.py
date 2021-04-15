@@ -1234,6 +1234,7 @@ def test_Trade_object_idem():
     excludes = (
         'delete',
         'session',
+        'commit',
         'query',
         'open_date',
         'get_best_pair',
